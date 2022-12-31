@@ -315,7 +315,7 @@ function productdetails() {
                   />
                   <p style={{fontSize: 20}}>{product.stockTotal} sản phẩm có sẵn</p>
                 </div>
-                <div className="btn_cart_buy">
+                <div className="btn_cart_buy"  >
                   <a
                     href="#"
                     className="btncart"
@@ -326,6 +326,7 @@ function productdetails() {
                         attributeId: selectedColor_Click,
                       });
                     }}
+                  
                   >
                     THÊM VÀO GIỎ HÀNG
                   </a>
