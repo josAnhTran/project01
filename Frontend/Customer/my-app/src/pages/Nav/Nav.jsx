@@ -113,7 +113,7 @@ function Nav() {
             <div onClick={()=>{
               setOverlay(true)
               setNavmb(true)
-            }} for='nav-input' className="sidebarmb-btn">
+            }} for='nav-input' className="sidebarmb-btn" style={{cursor:"pointer"}}>
               <UnorderedListOutlined />
             </div>
             <div className="sidebarmb-logo">
@@ -126,7 +126,7 @@ function Nav() {
               <a className="sidebarmb-extra-cart" onClick={() => {
                 setModalOpen(true);
               }}>
-                <li > <AiOutlineShopping style={{ width: 25, height: 25 }} /><div>{items.length}</div></li>
+                <li > <AiOutlineShopping style={{ width: 25, height: 25, cursor:"pointer" }} /><div>{items.length}</div></li>
               </a>
             </div>
           </div>
