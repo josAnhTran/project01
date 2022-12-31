@@ -313,7 +313,7 @@ function productdetails() {
                     defaultValue={1}
                     onChange={onChange}
                   />
-                  <p style={{fontSize: 20}}>{product.stockTotal} sản phẩm có sẵn</p>
+                  <p >{product.stockTotal} sản phẩm có sẵn</p>
                 </div>
                 <div className="btn_cart_buy"  >
                   <a

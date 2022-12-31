@@ -188,6 +188,9 @@
     cursor: pointer;
     background-color: #E54343;
 }
+.amount p{
+    font-size: 20px;
+}
 
 @media only screen and (max-width: 46.1875em) {
     .product_detall .product_detall_main>p{
@@ -203,4 +206,12 @@
         flex-direction: column;
 
     }
-  }
+    .size_container a,.color_container a{
+        padding: 4px 8px;
+        
+    }
+    .amount p{
+        font-size: 12px;
+    }  
+
+}
