@@ -98,8 +98,9 @@
 .amount{
     margin-top: 30px;
     display: flex;
+    align-items: center;
 }
-.amount h4{
+.amount h5{
     margin-right: 10px;
 }
 

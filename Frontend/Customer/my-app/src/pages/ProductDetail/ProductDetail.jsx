@@ -305,15 +305,15 @@ function productdetails() {
                   Chọn lại
                 </button>
                 <div className="amount">
-                  <h4>Amount:</h4>
+                  <h5 style={{fontWeight: 550, marginRight:4}}>{`Amount:`} </h5>
                   <InputNumber
                     name="productQuantity"
-                    style={{ marginRight: 30 }}
+                    style={{ marginRight: 4 }}
                     min={1}
                     defaultValue={1}
                     onChange={onChange}
                   />
-                  <p>{product.stockTotal} sản phẩm có sẵn</p>
+                  <p style={{fontSize: 20}}>{product.stockTotal} sản phẩm có sẵn</p>
                 </div>
                 <div className="btn_cart_buy">
                   <a
