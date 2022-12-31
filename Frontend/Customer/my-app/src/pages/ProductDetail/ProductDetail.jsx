@@ -112,16 +112,16 @@ function productdetails() {
             </div>
             <div className="product_detall">
               <div className="product_detall_main">
-                <p>
+                <p className="productName">
                   {product.name}-{product.productCode}
                 </p>
-                <div className="price">
-                  <p style={{ fontWeight: "bold" }}>
+                <div className="price" style={{display: "block" ,height: "100%"}}>
+                  <p style={{ fontWeight: 600 }} >
                     {productPrice && (
-                      <del>{numeral(productPrice).format("0,0")}VNĐ</del>
+                      <del>{numeral(productPrice).format("0,0")} VNĐ</del>
                     )}
                   </p>
-                  <p>{numeral(productPriceItems).format("0,0")}VNĐ</p>
+                  <p>{numeral(productPriceItems).format("0,0")} VNĐ</p>
                   <div className="discount">
                     <p>giảm {productDiscount}%</p>
                   </div>
