@@ -140,11 +140,14 @@ function Nav() {
         
         </div>
         <nav style={navmb?{transform:'translateX(0%)',opacity:1}:{transform:'translateX(-100%)',opacity:0}} className="nav_mb">
-          <div className="nav_mb-close">
-          <CloseOutlined onClick={()=>{
+          <div className="nav_mb-close" >
+          <CloseOutlined 
+          onClick={()=>{
             setNavmb(false)
             setOverlay(false)
-          }} />
+          }} 
+            size={32}
+          />
           </div>
           <div className='container_nav_mb_logo'>
               <Link to='/'><img src='ToCoClothes.png' alt='' onError={(e) =>
