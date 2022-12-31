@@ -191,7 +191,9 @@
 .amount p{
     font-size: 20px;
 }
-
+.btn_cart_buy .btncart{
+    font-weight: 700;
+}
 @media only screen and (max-width: 46.1875em) {
     .product_detall .product_detall_main>p{
         font-size: 20px;
@@ -213,5 +215,8 @@
     .amount p{
         font-size: 12px;
     }  
+    .related-section-header_text{
+        font-size: 16px;
+    }
 
 }
