@@ -215,8 +215,16 @@
     .amount p{
         font-size: 12px;
     }  
-    .related-section-header_text{
+    .related-section-header_text, .description p{
         font-size: 16px;
+    }
+    .otherInfo{
+        font-size: 16px;
+    }
+    .product_detall li img {
+        vertical-align: bottom;
+        width: 20px;
+        height: 20px;
     }
 
 }

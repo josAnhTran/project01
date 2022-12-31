@@ -332,7 +332,7 @@ function productdetails() {
                   </a>
                 
                 </div>
-                <ul>
+                <ul className="otherInfo">
                   <li>
                     <img src="image50.png" />
                     <span>BẢO HÀNH TRONG VÒNG 90 NGÀY</span>
